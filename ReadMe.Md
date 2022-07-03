@@ -1,0 +1,1 @@
+This is a website for advertising Vallie's estate. it has explains the vallies estate role to the community, the sold product over the year and their esteemed customers
