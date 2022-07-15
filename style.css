@@ -1,9 +1,10 @@
 body{
-    background-color: rgb(235, 231, 231);
-    max-width: 100%;
+    background-color: rgb(245, 245, 245);
+    width: 95%;
+    display: block;
 }
 h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;   
 }
 .div1{
@@ -27,10 +28,21 @@ h1{
 }
 .div1 ul li button{
     background-color: rgb(21, 21, 241);
+    border: none;
     border-radius: 5px;
     color: white;
     padding: 10px;
     margin: 0px 0px 0 220px;
+}
+.comb{
+    display: flex; 
+    width: 400px;
+    text-align: center;
+}
+.comb i{
+    color: rgb(21, 21, 241);
+    margin: 10px;
+    font-size: 20px;    
 }
 .row1{
     width: auto;
@@ -56,47 +68,85 @@ font-size: 26px;
     height: 350px;
 }
 .row2 {
-background-color:whitesmoke;
-border-radius: 15px;
-width: 100%;
 display: flex;
-padding: 2px;
+justify-content: space-around;
+text-align: center;
+background-color: white;
+width: 80%;
+margin-left: 150px;
+border-radius: 30px;
 }
-
 .row2 button{
 width: 80px;
 height: 40px;
 }
+.ourpro{
+    text-align: center;
+}
+.ourpro h2{
+text-align: left;
+margin: 0px;
+margin-left: 15px;
+}
+.ourpro h3{
+    margin: 2px;
+}
+.ourpro p{
+font-size: 20px;
+margin: 0px;
+}
 .row3{
-    width: auto;
-    margin: 20px;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-around;  
+   display: flex;
+   justify-content: space-evenly;
 }
 .col4{
-    width: 250px;
-    height: 150px;
+    background-color: white;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 20px; 
+}
+
+.col4 h2{
+color: black;
+text-align: center;
+margin: 0px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.col4 p{
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    color: rgb(68, 66, 66);
+}
+.col4 img{
+    width: 103px;
+    height: 103px;
 }
 .row4{
-    width: auto;
-    margin: 20px;
-    height: auto;
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-around; 
+    justify-content: space-between;
+}
+.col5{
+    margin-left: 20px;
 }
 .col5 img{
-width: 550px;
-height: 350px;
+width: 420px;
+height: 300px;
 }
 .col6{
-font-size: 25px;
+    margin-top: 40px;
+    margin-right: 20px;
 }
+.col6 h2{
+font-size: 30px;
+}
+.col6 p{
+    font-size: 26px;
+    }
 .c6{
+display: flex;
+justify-content: space-between;
 
 }
 .diva{
@@ -105,7 +155,7 @@ font-size: 25px;
     padding: 0px;
 }
 h2{
-    color: rgb(10, 10, 77);
+    color: rgb(21, 21, 241);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -123,48 +173,54 @@ h2{
     margin: 0px;
 }   
 button{
-    background-color: rgb(1, 1, 90);
+    background-color: rgb(21, 21, 241);
     color: white;
     padding: 10px;
     border-radius: 12px;
+    border: none;
 }
 .row{
     background-color: blue;
 }
-.row5 h2{
-    text-align: center;
-    font-size: 36px; 
+h3{
+    color: blue;
+    font-size: 30px;
 }
-.row5 p{
+.col14{
     text-align: center;
-    font-size: 28px;   
+    width: 100%;
 }
-.row9{
-    width: auto;
-    height: 50%;
-    margin: auto;
+.col14 p{
+font-weight: lighter;
+font-size: 20px;
+}
+.a img{
+    width: 295px;
+    height: 170px;
+}
+.col14a{
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-around;    
+    padding: 20px;
+    width: 100%;
+    justify-content: space-between;
 }
-.col7{
-    background-color: rgb(45, 11, 77);
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 125px;
-    width: 500px;
+.col15a{
+    display: flex;
+    justify-content: space-around;
 }
-.col7a{
-    background-color: rgb(45, 11, 77);
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 125px;
-    width: 500px;
+.col15a div p{
+    color: lightgray;
 }
-.col7b{
-    background-color: rgb(45, 11, 77);
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 125px;
-    width: 500px;  
+.col15a div p b{
+    color: blue;
+}
+.row23{
+    background-color: white;
+    border-top-right-radius: 86px;
+    border-bottom-left-radius: 20px;
+    height: 275px;
+    width: 295px;
+    shape-outside: margin-box;
 }
 .col7 img{
     width: 500px;
@@ -189,37 +245,47 @@ text-align: center;
 }
 .row6 p{
     font-size: 30px;
+    margin: 1px;
     }
 .col8{
     flex-basis:25%;
-    padding: 10px; 
-    background-color: whitesmoke;
+    padding: 8px; 
     border-radius: 20px; 
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
 }
-footer{
-width: 100%;
-position: relative;
-bottom: 0px;
-color: white;
-background-color: blue;
-padding: 10px;
-font-size: 24px;
-
-line-height: 20px;
+.col8 h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
 }
-.row{
-    width: auto;
-    height: 50%;
-    margin: auto;
+.col4 h4{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.col8 p{
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(83, 77, 77);
+}
+.clever{
+justify-content: space-between;  
+width: auto;  
+}
+.row00{
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-around;
+    background-color: blue;
+    align-content: space-around;
+    height: 250px;
+    padding: 0px 50px 0px 50px;
 }
-.col{
-    flex-basis:25%;
-    padding: 10px;
+.col00{
+    color: white;
+    text-align: left;
 }
-.col ul li{
-list-style-type: none;
+.col00 h3{
+color: white;
+}
+.col00 ul{
+    list-style-type: none;
+    margin: 40px;
 }
